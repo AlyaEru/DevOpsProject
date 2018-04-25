@@ -8,8 +8,7 @@ class SimpleTests(unittest.TestCase):
         assert 7 == 7
         
     def test_old_print_syntax(self):
-        print "This should succeed in Python 2.x, but not 3.x"
+        print "This should succd in Python 2.x, but not 3.x"
 
-        
 if __name__ == "__main__":
     unittest.main()

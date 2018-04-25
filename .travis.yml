@@ -11,4 +11,9 @@ python:
   
 script: "python simple_tests.py"
   
-
+notifications:
+  email:
+    recipients:
+      - schwabem1@gcc.edu
+    on_success: never # default: change
+    on_failure: always # default: always
